@@ -4,7 +4,7 @@ const app = express();
 
 // Proxy เกม
 app.get('/game', (req,res)=>{
-    const url='https://tottygame.github.io/test/';
+    const url='https://totti911-EasyBuyLao.store';
     request(url).pipe(res);
 });
 app.use(express.static('public'));
